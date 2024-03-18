@@ -18,7 +18,12 @@ It’s strongly recommended to launch it using a GPU, to keep the execution time
 
 
 ## Setup and Usage
-The file in this repository is in .ipynb format so it is a Jupyter Notebooks, and you can simply open it by importing in Google Colab. 
+The files in this repository are in .ipynb format so they're Jupyter Notebooks, and you can simply open them by importing in Google Colab. 
 
-In the .ipynb file you’ll find a dataset analysis, the BERT model and tokenizer building up, the training and finally the evaluation and the prediction of new examples, with step by step cell of code.  
-I’ll add to the repo also the .csv file containing the data used for the train of our Sentiment Analysis model.
+In the BERT_Fine_Tuning.ipynb file you’ll find a dataset analysis, the tokenizer setting and BERT model in its final fine tuning, the training and finally the evaluation and the prediction of new examples, with step by step cell of code.  
+In the BERT_Base.ipynb file you'll find a base version of the tuning, based on the BERT authors's recommendations, with a final evalutaion of the results.
+In the BERT_Undersampling.ipynb file you'll find our model dealing with a slightly different (undersampled) version of the dataset used.
+In the BERT_5_Categ.ipynb file you'll find our model dealing with more cathegories (5 instead of 3) to work with.
+
+I’ll add to the repo also the reviews.csv file containing the data used for the train of our Sentiment Analysis model.
+And the reviewsunders.csv containing the undersampled dataset. Both are by Google.
