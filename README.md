@@ -21,7 +21,7 @@ It’s strongly recommended to launch it using a GPU, to keep the execution time
 The files in this repository are in .ipynb format so they're Jupyter Notebooks, and you can simply open them by importing in Google Colab. 
 
 In the BERT_Fine_Tuning.ipynb file you’ll find a dataset analysis, the tokenizer setting and BERT model in its final fine tuning, the training and finally the evaluation and the prediction of new examples, with step by step cell of code.  
-In the BERT_Base.ipynb file you'll find a base version of the tuning, based on the BERT authors's recommendations, with a final evalutaion of the results.
+In the BERT_Base.ipynb file you'll find a base version of the tuning, based on the BERT authors's recommendations, with a final evalutaion of the results. 
 In the BERT_Undersampling.ipynb file you'll find our model dealing with a slightly different (undersampled) version of the dataset used.
 In the BERT_5_Categ.ipynb file you'll find our model dealing with more cathegories (5 instead of 3) to work with.
 
